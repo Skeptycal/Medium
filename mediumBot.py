@@ -12,7 +12,7 @@ import time
 options = webdriver.ChromeOptions()
 options.add_argument('headless')
 driver = webdriver.Chrome(
-    '/Library/Python/2.7/site-packages/chromedriver', chrome_options=options)
+    '', chrome_options=options)
 url = "https://medium.com/topic/editors-picks"
 driver.get(url)
 
