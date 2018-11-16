@@ -11,8 +11,7 @@ import time
 '''
 options = webdriver.ChromeOptions()
 options.add_argument('headless')
-driver = webdriver.Chrome(
-    '', chrome_options=options)
+driver = webdriver.Chrome(chrome_options=options)
 url = "https://medium.com/topic/editors-picks"
 driver.get(url)
 
